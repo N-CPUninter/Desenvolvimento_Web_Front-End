@@ -32,7 +32,7 @@ Este repositório contém os arquivos da matéria de DESENVOLVIMENTO WEB - FRONT
 
 ## Participantes
 
-| [<img src="https://avatars3.githubusercontent.com/u/60905310?s=460&v=4" width="75px;"/>](https://github.com/mferste) |
+| [<img src="https://avatars.githubusercontent.com/u/5068215?s=460&v=4" width="75px;"/>](https://github.com/mferste) |
 | :------------------------------------------------------------------------------------------------------------------------: |
 
 
