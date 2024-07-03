@@ -4,7 +4,7 @@
 </div>
 
 <!-- Título e breve descrição do repositório -->
-<div align="center"><h1>MODELO</h1><p><b>Descrição do seu repositório. Altere abaixo os ícones das tecnologias usadas:</b></p></div>
+<div align="center"><h1>FRONT END</h1><p><b>Descrição do seu repositório. Altere abaixo os ícones das tecnologias usadas:</b></p></div>
 
 <!-- Ícones ou links das tecnologias usadas -->
 <p align="center">
@@ -28,9 +28,7 @@
 <!-- Descrição do repositório e demais dados -->
 ## Descrição
 
-Este repositório contém os arquivos de modelo para criação de repositórios padronizados N-CPU.
-
-Este modelo faz parte do N-CPU.
+Este repositório contém os arquivos da matéria de DESENVOLVIMENTO WEB - FRONT END dos cursos do Núcleo de Computação da Uninter.
 
 ## Participantes
 
@@ -38,7 +36,7 @@ Este modelo faz parte do N-CPU.
 | :------------------------------------------------------------------------------------------------------------------------: |
 
 
-| [Prof. Guilherme Patriota](https://github.com/guipatriota)
+| [Prof. Mauricio Ferste](https://github.com/mferste)
 
 ## Como usar este repositório
 
