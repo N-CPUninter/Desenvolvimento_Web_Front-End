@@ -1,0 +1,105 @@
+
+
+
+UNINTER>> ls
+aula04  aula05  aula06  aula07
+UNINTER>> mkdir apiLivros
+UNINTER>> cd apiLivros/
+
+
+DETALHE: o que é maiúsculo vira minúsculo, no caso apiLivros vira apilivros
+
+ 
+npm init
+
+
+npm install express --save
+
+package-lock.json -> configurações
+(node modules é muito grande, se destruir o nodemodules, com os dois arquivos package e com npm install o projeto é reconstruido)
+
+
+criar um index.js
+
+
+
+
+falar de síncrono e assíncrono
+assincrono tem o then no final -> é uma promise, ou seja 
+uma promessa que será feito
+//Promise, ou seja é uma promessa que será feio
+// mas vamos usar o async/await
+
+
+const express = require("express")
+const app = express();
+
+app.listen(3000,()=> {
+    
+})
+
+
+mostrar que localhost 3000 não retorna nada pois faltam rotas
+
+se mostrar localhost:3000, vai dizer que não pode fazer o get
+
+
+
+
+npm install body-parser
+
+
+const express = require("express")
+const app = express();
+const bodyParser = require('body-parser')
+
+app.use(bodyParser())
+app.listen(3000,()=> {
+  console.log('api inicializada')  
+})
+
+app.get('/',(req,res)=> {
+    res.status(200).send("olá mundo")
+})
+
+app.post('/', (req,res)=> {
+    res.status(201).send(req.body)
+})
+
+app.put ('/:id', (req,res)=> {
+    res.status(202).send({
+       cod: req.params.id,
+       corpo:req.body 
+    })
+})
+
+app.delete ('/:id',(req,res)=> {
+    res.status(204).send (req.params.id)
+})
+
+
+
+
+
+
+
+
+typeorm
+sudo npm install -g ts-node
+sudo npm install -g typeorm
+
+
+typeorm init --name apiQuestionario --express --database pg
+
+typeorm init --name apiQuestionario --express --database pg
+
+Project created inside /home/mferste/faind/___aulas Web/workspace/apiQuestionario directory.
+Please wait, installing dependencies...
+Done! Start playing with a new project!
+
+
+npm install pg --save
+
+
+
+

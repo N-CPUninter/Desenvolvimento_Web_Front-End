@@ -1,0 +1,20 @@
+{
+    "usuarios":[
+        {
+        "firstname":"Maria",
+        "lastname":"Silva",
+        "age":40
+        },
+        {
+        "firstname":"Carlos",
+        "lastname":"Ferreira",
+        "age":18            
+        },
+        {
+        "firstname":"Carlos",
+        "lastname":"Ferreira",
+        "age":9            
+        }
+    ]
+}
+
