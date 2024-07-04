@@ -1,0 +1,19 @@
+
+Material
+https://m3.material.io/styles/color/the-color-system/color-roles
+
+
+
+ ng new faculdade
+ cd faculdade
+ ls
+ ng add @angular/material
+ code .
+ ng serve --open
+ 
+ 
+Lembrar de fazer os imports.... 
+import {MatToolbarModule,MatIcon, MatIconModule} from '@angular/material'; 
+import {MatToolbarModule} from '@angular/material/toolbar'; 
+import {MatIcon, MatIconModule} from '@angular/material/icon'; 
+import {MatButt}

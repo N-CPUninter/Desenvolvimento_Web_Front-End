@@ -1,0 +1,22 @@
+
+https://m3.material.io/styles/color/the-color-system/color-roles
+
+https://m3.material.io/styles/color/the-color-system/color-roles
+
+https://m3.material.io/theme-builder#/custom
+
+
+
+
+ ng new uninter.web
+ cd uninter.web/
+ ls
+ ng add @angular/material
+ code .
+ ng serve --open
+
+
+import {MatToolbarModule,MatIcon, MatIconModule} from '@angular/material';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIcon, MatIconModule} from '@angular/material/icon';
+import {MatButt}

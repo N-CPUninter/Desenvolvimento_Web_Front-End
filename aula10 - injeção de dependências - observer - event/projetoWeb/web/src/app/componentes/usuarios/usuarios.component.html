@@ -1,0 +1,30 @@
+<div class="container-toolbar">
+    <button class="new" mat-raised-button color="background" routerLink="/Usuario/new">Novo Usuário </button>
+  </div>
+    <div class="div-table mat-elevation-z8">
+      <table mat-table [dataSource]="dataSource">
+        <ng-container matColumnDef="id" >
+          <th mat-header-cell *matHeaderCellDef></th>
+          <td mat-cell *matCellDef="let element" class="actions">
+            <button mat-button routerLink="/Usuario/{{ element.id }}">
+              <mat-icon>edit</mat-icon>
+            </button>
+            <button (click)="delete(element)" mat-button>
+              <mat-icon>delete</mat-icon>
+            </button>
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="Nome">
+          <th mat-header-cell *matHeaderCellDef>Nome</th>
+          <td mat-cell *matCellDef="let element">{{ element.firstName }}</td>
+        </ng-container>
+        <ng-container matColumnDef="Sobrenome">
+          <th mat-header-cell *matHeaderCellDef>Descrição</th>
+          <td mat-cell *matCellDef="let element">{{ element.lastName }}</td>
+        </ng-container>
+        
+        <tr mat-header-row *matHeaderRowDef="columns;"></tr>
+        <tr mat-row *matRowDef="let row; columns: columns;"></tr>
+  
+      </table>    
+    </div>
