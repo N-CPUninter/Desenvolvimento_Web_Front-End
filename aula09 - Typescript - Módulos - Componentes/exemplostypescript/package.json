@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "babel-preset-latest": "^6.24.1"
+  }
+}
