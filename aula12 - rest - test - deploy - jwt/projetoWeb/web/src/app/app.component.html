@@ -1,0 +1,24 @@
+<div class="faind___container_body">
+  <mat-toolbar color="primary" class="faind___toolbar">
+    <button mat-icon-button color="dark" (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <h1> Sistema Faculdade </h1> 
+  </mat-toolbar>
+
+  <mat-sidenav-container class="faind___mat-sidenav-container"> 
+    <mat-sidenav #sidenav >
+      <mat-nav-list>
+        <h3 mat-subheader> Opções </h3>
+        <a mat-list-item routerLink="/usuarios"> Usuários </a>
+        <a mat-list-item routerLink="/questoes"> Questões </a> 
+        <h3 mat-subheader> Sair </h3>
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
+</div>
