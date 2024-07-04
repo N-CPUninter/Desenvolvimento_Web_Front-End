@@ -1,0 +1,31 @@
+h1 {
+  color: blue;
+}
+
+p {
+  color: brown;
+  text-align: center;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: blue;
+}
+
+#identificador {
+  color: blueviolet;
+  background-color: darkseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.classe {
+  text-align: right;
+  background-image: -webkit-gradient();
+}
+
+#minhaDiv {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+   }

@@ -1,0 +1,17 @@
+/* definindo variáveis para cores */
+$primary_1: #a2b9bc;
+$primary_2: #b2ad7f;
+$primary_3: #878f99;
+
+/* usando variáveis */
+.main-header {
+  background-color: $primary_1;
+}
+
+.menu-left {
+  background-color: $primary_2;
+}
+
+.menu-right {
+  background-color: $primary_3;
+}
