@@ -41,7 +41,8 @@ Este repositório contém os arquivos da matéria de DESENVOLVIMENTO WEB - FRONT
 ## Comandos de utilização
 
 Prezados, 
-Norlmalmente não subimos todo o código fonte em um projeto!
+Normalmente não subimos todo o código fonte em um projeto!
+
 Neste foi feito para evitar dúvidas, mas as pastas ficaram MUITO GRANDES EM TERMOS DE TAMANHO.
 Favor baixar uma a uma.
 (Normalmente um projeto não sobe no GitHub com a pasta node_modules, e ela é recriada ao baixar com npm install, isto é exĺicado no conteúdo teórico)
