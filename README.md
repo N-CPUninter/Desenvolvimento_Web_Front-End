@@ -38,27 +38,13 @@ Este repositório contém os arquivos da matéria de DESENVOLVIMENTO WEB - FRONT
 
 | [Prof. Mauricio Ferste](https://github.com/mferste)
 
-## Como usar este repositório
-
-Ao criar um novo repositório, selecione este repositório como modelo.
-
-### Banner do arquivo README.md
-
-Utilize o arquivo Banner_Github_NCPU.pptx da pasta `.readme_docs` para criar seu arquivo `.readme_docs/Banner_Github_NCPU.png`. Coloque o título do seu repositório como título e o nome de sua matéria como subtítulo do banner.
-
-Após alterar os dados, clique em Arquivo -> Exportar -> Alterar o tipo de arquivo -> Duplo clique em PNG.  Salve com o mesmo nome e extenção png (`Banner_Github_NCPU.png`).
-
-Coloque o arquivo PNG na pasta `.readme_docs/` do seu repositório e exclua o arquivo `Banner_Github_NCPU.pptx`.
-
-### Dados do arquivo REAMD.md
-```diff
-- Lembre-se de alterar os dados deste arquivo para condfizerem com os seus dados e de sua matéria/repositório!
-
-
-+ Mantenha os tópicos "Contribuições" e "Licença" ao final de seu arquivo README.md.
-```
-
 ## Comandos de utilização
+
+Prezados, 
+Norlmalmente não subimos todo o código fonte em um projeto!
+Neste foi feito para evitar dúvidas, mas as pastas ficaram MUITO GRANDES EM TERMOS DE TAMANHO.
+Favor baixar uma a uma.
+(Normalmente um projeto não sobe no GitHub com a pasta node_modules, e ela é recriada ao baixar com npm install, isto é exĺicado no conteúdo teórico)
 
 ## Contribuições
 
